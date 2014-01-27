@@ -8,20 +8,17 @@ Follow installation guide on http://docs.vagrantup.com/v2/installation/index.htm
 Control Vagrant
 ===================
 
-Start box
--------------------------
+###### Start box
 ```Shell
 vagrant up
 ```
 
-SSH into box
--------------------------
+###### SSH into box
 ```Shell
 vagrant ssh
 ```
 
-Tear down box
--------------------------
+###### Tear down box
 ```Shell
 vagrant destroy
 ```
@@ -32,20 +29,17 @@ More documentation on http://www.vagrantup.com/
 Control Mongo
 ===================
 
-Start MongoDB
--------------------------
+###### Start MongoDB
 ```Shell
 sudo service mongodb start
 ```
 
-Stop MongoDB
--------------------------
+###### Stop MongoDB
 ```Shell
 sudo service mongodb stop
 ```
 
-Restart MongoDB
--------------------------
+###### Restart MongoDB
 ```Shell
 sudo service mongodb restart
 ```
